@@ -1,0 +1,18 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX var: <http://www.semanticweb.org/s0169466/ontologies/2024/8/untitled-ontology-3#>
+SELECT ?subject ?object ?c
+	WHERE { ?subject var:Название_метода ?object.
+		?b var:Решается ?subject.
+		?b var:Название_задачи ?c.FILTER(?c = "Кластеризация"^^xsd:string)} #фильтрует данные
+	ORDER BY ASC(?subject)
+	LIMIT 2
+	OFFSET 1
+
+
+DESCRIBE var:1 #описание экземпляра (класса)
+
+SELECT ?p (count(?a) AS ?count) 
+	WHERE {?a ?p ?o} GROUP BY ?p
