@@ -3,16 +3,85 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX var: <http://www.semanticweb.org/s0169466/ontologies/2024/8/untitled-ontology-3#>
+
+----------------------1--------------------------------------
+
+	SELECT ?subject ?c
+	WHERE { ?subject var:Название_метода ?object.
+		?subject var:Имеет_достоинство ?c}
+
+----------------------2-----------------------------
+
+	SELECT ?subject ?object ?c
+	WHERE { ?subject var:Название_метода ?object.
+		?b var:Решается ?subject.
+		?b var:Название_задачи ?c}
+	ORDER BY ASC(?subject)
+	
+
+----------------------3-------------------------------
+
+	SELECT ?subject ?b
+	WHERE { ?subject var:Название_метода ?object.
+		?subject var:Имеет_достоинство ?c.
+		?c var:Название_преимущества ?b}
+	LIMIT 2
+	OFFSET 1
+
+---------------------4----------------------------------
+
+DESCRIBE var:1 #описание экземпляра (класса)
+
+
+ASK WHERE {?subject var:Название_задачи "Регрессия"^^xsd:string}
+
+
+---------------------5-----------------------------------
+
 SELECT ?subject ?object ?c
 	WHERE { ?subject var:Название_метода ?object.
 		?b var:Решается ?subject.
 		?b var:Название_задачи ?c.FILTER(?c = "Кластеризация"^^xsd:string)} #фильтрует данные
-	ORDER BY ASC(?subject)
-	LIMIT 2
-	OFFSET 1
 
-
-DESCRIBE var:1 #описание экземпляра (класса)
+----------------------6----------------------------------
 
 SELECT ?p (count(?a) AS ?count) 
-	WHERE {?a ?p ?o} GROUP BY ?p
+	WHERE {?a ?p ?o} 
+GROUP BY ?p
+
+------------------------7----------------------------
+
+SELECT ?subject ?b ?e
+	WHERE {{ ?subject var:Название_метода ?object.
+	                ?subject var:Имеет_достоинство ?c.
+	                ?c var:Название_преимущества ?e.}
+	UNION
+	{?subject var:Название_метода ?object.
+	?subject var:Имеет_недостаток ?с.
+	?c var:Название_недостатка ?b.}}
+
+-----------------------8----------------------------------
+
+SELECT ?subject ?e
+	WHERE {
+	SELECT ?subject  ?e { ?subject var:Название_метода ?object.
+	                ?subject var:Имеет_достоинство ?c.
+	                ?c var:Название_преимущества ?e.}}
+
+-----------------------9---------------------------------------
+
+SELECT ?object
+	WHERE {?subject var:Название_преимущества ?object.
+	               FILTER regex(?object, "^У")}
+
+SELECT ?object
+	WHERE {?subject var:Название_преимущества ?object.
+	               FILTER regex(?object, "а")}
+
+-------------------------10-----------------------------------
+
+SELECT ?s ?o
+	WHERE {VALUES ?o {"Низкая точность"^^xsd:string "Склонность к переобучению"^^xsd:string "Вычислительная сложность"^^xsd:string}
+	?s var:Название_недостатка ?o.}
+
+-----------------------------Пример 5 (Construct)----------------------------
