@@ -1,0 +1,814 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/s0169466/ontologies/2024/8/untitled-ontology-3"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/s0169466/ontologies/2024/8/untitled-ontology-3">
+    <Prefix name="" IRI="http://www.semanticweb.org/s0169466/ontologies/2024/8/untitled-ontology-3"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <NamedIndividual IRI="#1_2_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#4_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1_6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1_5_0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1_1_0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#хар6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1_6_1"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Закрывает_потребность"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#хар1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Описание_недостатка"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Характеристика"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#хар5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#3"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Имеет_недостаток"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1_1_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#3_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1_4_0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1_5_1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Название_метода"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Описание_преимущества"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#хар4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#4"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Решается"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Название_преимущества"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#4_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#3_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1_4_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1_3_0"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Название_недостатка"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#хар3"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Имеет_достоинство"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1_2_0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#4_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1_3_1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Название_задачи"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Метод"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1_6_0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#хар7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1_7_1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Название_характеристики"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#хар2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Недостатки"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Преимущества"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Задача"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#Характеристика"/>
+        <NamedIndividual IRI="#хар1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Характеристика"/>
+        <NamedIndividual IRI="#хар2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Характеристика"/>
+        <NamedIndividual IRI="#хар3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Характеристика"/>
+        <NamedIndividual IRI="#хар4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Характеристика"/>
+        <NamedIndividual IRI="#хар5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Характеристика"/>
+        <NamedIndividual IRI="#хар6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Задача"/>
+        <NamedIndividual IRI="#1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Метод"/>
+        <NamedIndividual IRI="#1_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Недостатки"/>
+        <NamedIndividual IRI="#1_1_0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Преимущества"/>
+        <NamedIndividual IRI="#1_1_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Метод"/>
+        <NamedIndividual IRI="#1_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Недостатки"/>
+        <NamedIndividual IRI="#1_2_0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Преимущества"/>
+        <NamedIndividual IRI="#1_2_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Метод"/>
+        <NamedIndividual IRI="#1_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Недостатки"/>
+        <NamedIndividual IRI="#1_3_0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Преимущества"/>
+        <NamedIndividual IRI="#1_3_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Метод"/>
+        <NamedIndividual IRI="#1_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Недостатки"/>
+        <NamedIndividual IRI="#1_4_0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Преимущества"/>
+        <NamedIndividual IRI="#1_4_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Метод"/>
+        <NamedIndividual IRI="#1_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Недостатки"/>
+        <NamedIndividual IRI="#1_5_0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Преимущества"/>
+        <NamedIndividual IRI="#1_5_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Метод"/>
+        <NamedIndividual IRI="#1_6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Недостатки"/>
+        <NamedIndividual IRI="#1_6_0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Преимущества"/>
+        <NamedIndividual IRI="#1_6_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Преимущества"/>
+        <NamedIndividual IRI="#1_7_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Задача"/>
+        <NamedIndividual IRI="#2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Задача"/>
+        <NamedIndividual IRI="#3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Метод"/>
+        <NamedIndividual IRI="#3_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Метод"/>
+        <NamedIndividual IRI="#3_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Задача"/>
+        <NamedIndividual IRI="#4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Метод"/>
+        <NamedIndividual IRI="#4_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Метод"/>
+        <NamedIndividual IRI="#4_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Метод"/>
+        <NamedIndividual IRI="#4_3"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Закрывает_потребность"/>
+        <NamedIndividual IRI="#хар1"/>
+        <NamedIndividual IRI="#1_4_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Закрывает_потребность"/>
+        <NamedIndividual IRI="#хар2"/>
+        <NamedIndividual IRI="#1_1_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Закрывает_потребность"/>
+        <NamedIndividual IRI="#хар3"/>
+        <NamedIndividual IRI="#1_7_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Закрывает_потребность"/>
+        <NamedIndividual IRI="#хар4"/>
+        <NamedIndividual IRI="#1_3_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Закрывает_потребность"/>
+        <NamedIndividual IRI="#хар5"/>
+        <NamedIndividual IRI="#1_2_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Закрывает_потребность"/>
+        <NamedIndividual IRI="#хар6"/>
+        <NamedIndividual IRI="#1_6_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Решается"/>
+        <NamedIndividual IRI="#1"/>
+        <NamedIndividual IRI="#1_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Решается"/>
+        <NamedIndividual IRI="#1"/>
+        <NamedIndividual IRI="#1_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Решается"/>
+        <NamedIndividual IRI="#1"/>
+        <NamedIndividual IRI="#1_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Решается"/>
+        <NamedIndividual IRI="#1"/>
+        <NamedIndividual IRI="#1_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Решается"/>
+        <NamedIndividual IRI="#1"/>
+        <NamedIndividual IRI="#1_5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Решается"/>
+        <NamedIndividual IRI="#1"/>
+        <NamedIndividual IRI="#1_6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_достоинство"/>
+        <NamedIndividual IRI="#1_1"/>
+        <NamedIndividual IRI="#1_3_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_недостаток"/>
+        <NamedIndividual IRI="#1_1"/>
+        <NamedIndividual IRI="#1_3_0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_достоинство"/>
+        <NamedIndividual IRI="#1_2"/>
+        <NamedIndividual IRI="#1_2_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_недостаток"/>
+        <NamedIndividual IRI="#1_2"/>
+        <NamedIndividual IRI="#1_1_0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_достоинство"/>
+        <NamedIndividual IRI="#1_3"/>
+        <NamedIndividual IRI="#1_2_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_недостаток"/>
+        <NamedIndividual IRI="#1_3"/>
+        <NamedIndividual IRI="#1_2_0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_достоинство"/>
+        <NamedIndividual IRI="#1_4"/>
+        <NamedIndividual IRI="#1_4_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_недостаток"/>
+        <NamedIndividual IRI="#1_4"/>
+        <NamedIndividual IRI="#1_4_0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_достоинство"/>
+        <NamedIndividual IRI="#1_5"/>
+        <NamedIndividual IRI="#1_1_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_недостаток"/>
+        <NamedIndividual IRI="#1_5"/>
+        <NamedIndividual IRI="#1_2_0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_достоинство"/>
+        <NamedIndividual IRI="#1_6"/>
+        <NamedIndividual IRI="#1_7_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_недостаток"/>
+        <NamedIndividual IRI="#1_6"/>
+        <NamedIndividual IRI="#1_5_0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Решается"/>
+        <NamedIndividual IRI="#2"/>
+        <NamedIndividual IRI="#1_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Решается"/>
+        <NamedIndividual IRI="#2"/>
+        <NamedIndividual IRI="#1_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Решается"/>
+        <NamedIndividual IRI="#2"/>
+        <NamedIndividual IRI="#1_5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Решается"/>
+        <NamedIndividual IRI="#2"/>
+        <NamedIndividual IRI="#1_6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Решается"/>
+        <NamedIndividual IRI="#3"/>
+        <NamedIndividual IRI="#3_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Решается"/>
+        <NamedIndividual IRI="#3"/>
+        <NamedIndividual IRI="#3_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_достоинство"/>
+        <NamedIndividual IRI="#3_2"/>
+        <NamedIndividual IRI="#1_5_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_недостаток"/>
+        <NamedIndividual IRI="#3_2"/>
+        <NamedIndividual IRI="#1_1_0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Решается"/>
+        <NamedIndividual IRI="#4"/>
+        <NamedIndividual IRI="#4_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Решается"/>
+        <NamedIndividual IRI="#4"/>
+        <NamedIndividual IRI="#4_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Решается"/>
+        <NamedIndividual IRI="#4"/>
+        <NamedIndividual IRI="#4_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_недостаток"/>
+        <NamedIndividual IRI="#4_2"/>
+        <NamedIndividual IRI="#1_4_0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_недостаток"/>
+        <NamedIndividual IRI="#4_2"/>
+        <NamedIndividual IRI="#1_6_0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_достоинство"/>
+        <NamedIndividual IRI="#4_3"/>
+        <NamedIndividual IRI="#1_1_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_достоинство"/>
+        <NamedIndividual IRI="#4_3"/>
+        <NamedIndividual IRI="#1_6_1"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_характеристики"/>
+        <NamedIndividual IRI="#хар1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Высокая точность</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_характеристики"/>
+        <NamedIndividual IRI="#хар2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Высокая скорость</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_характеристики"/>
+        <NamedIndividual IRI="#хар3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Универсальность</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_характеристики"/>
+        <NamedIndividual IRI="#хар4"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Устойчивость к переобучению</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_характеристики"/>
+        <NamedIndividual IRI="#хар5"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Хорошая интерпретируемость</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_характеристики"/>
+        <NamedIndividual IRI="#хар6"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Легко вычислима</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_задачи"/>
+        <NamedIndividual IRI="#1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Бинарная классификация</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_метода"/>
+        <NamedIndividual IRI="#1_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Случайный лес</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_недостатка"/>
+        <NamedIndividual IRI="#1_1_0"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Склонность к переобучению</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Описание_недостатка"/>
+        <NamedIndividual IRI="#1_1_0"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Переобучается, так как модель имеет сложную архитектуру</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_преимущества"/>
+        <NamedIndividual IRI="#1_1_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Скорость работы</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Описание_преимущества"/>
+        <NamedIndividual IRI="#1_1_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Быстро работает, так как использует улучшенный градиентный бустинг</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_метода"/>
+        <NamedIndividual IRI="#1_2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Логистическая регрессия</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_недостатка"/>
+        <NamedIndividual IRI="#1_2_0"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Низкая точность</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_преимущества"/>
+        <NamedIndividual IRI="#1_2_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Интерпретируемость</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_метода"/>
+        <NamedIndividual IRI="#1_3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Дереаья решений</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_преимущества"/>
+        <NamedIndividual IRI="#1_3_0"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Трудность в интерпретации</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_преимущества"/>
+        <NamedIndividual IRI="#1_3_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Устойчивость к переобучению</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_метода"/>
+        <NamedIndividual IRI="#1_4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Метод опорных векторов</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_недостатка"/>
+        <NamedIndividual IRI="#1_4_0"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Вычислительная сложность</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_преимущества"/>
+        <NamedIndividual IRI="#1_4_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Высокая точность</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_метода"/>
+        <NamedIndividual IRI="#1_5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Наивный Байес</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_недостатка"/>
+        <NamedIndividual IRI="#1_5_0"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Высокие вычислительные затраты</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_преимущества"/>
+        <NamedIndividual IRI="#1_5_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Гибкость</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_метода"/>
+        <NamedIndividual IRI="#1_6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">К-ближайших соседей</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_недостатка"/>
+        <NamedIndividual IRI="#1_6_0"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Чувствительность к выбросам</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_преимущества"/>
+        <NamedIndividual IRI="#1_6_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Лёгкость вычислений</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_преимущества"/>
+        <NamedIndividual IRI="#1_7_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Универсальность</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_задачи"/>
+        <NamedIndividual IRI="#2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Многоклассовая классификация</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_задачи"/>
+        <NamedIndividual IRI="#3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Регрессия</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_метода"/>
+        <NamedIndividual IRI="#3_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Линейная регрессия</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_метода"/>
+        <NamedIndividual IRI="#3_2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Полиномиальная регрессия</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_задачи"/>
+        <NamedIndividual IRI="#4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Кластеризация</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_метода"/>
+        <NamedIndividual IRI="#4_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Кластеризация по к-средним</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_метода"/>
+        <NamedIndividual IRI="#4_2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Иерархическая кластеризация</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Название_метода"/>
+        <NamedIndividual IRI="#4_3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DBSCAN</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Имеет_недостаток"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Решается"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Закрывает_потребность"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Имеет_достоинство"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Имеет_недостаток"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Решается"/>
+    </AsymmetricObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#Закрывает_потребность"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#Имеет_достоинство"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#Имеет_недостаток"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#Решается"/>
+    </IrreflexiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Закрывает_потребность"/>
+        <Class IRI="#Характеристика"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Имеет_достоинство"/>
+        <Class IRI="#Метод"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Имеет_недостаток"/>
+        <Class IRI="#Метод"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Решается"/>
+        <Class IRI="#Задача"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Закрывает_потребность"/>
+        <Class IRI="#Преимущества"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Имеет_достоинство"/>
+        <Class IRI="#Преимущества"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Имеет_недостаток"/>
+        <Class IRI="#Недостатки"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Решается"/>
+        <Class IRI="#Метод"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Описание_недостатка"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Название_задачи"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Название_метода"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Название_недостатка"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Название_преимущества"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Описание_недостатка"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Описание_преимущества"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Название_задачи"/>
+        <Class IRI="#Задача"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Название_метода"/>
+        <Class IRI="#Метод"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Описание_недостатка"/>
+        <Class IRI="#Недостатки"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Описание_преимущества"/>
+        <Class IRI="#Преимущества"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Название_задачи"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Название_метода"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Название_недостатка"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Название_преимущества"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Название_характеристики"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Описание_недостатка"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Описание_преимущества"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
